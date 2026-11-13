@@ -18,7 +18,7 @@ ram_pattern = r'&(\d+)'
 
 
 inputfile = runfile / 'execute.lbc.txt'
-outputfile = runfile / 'dopfile.txt'
+outputfile = runfile  / 'rmdc' /  'main.txt'
 
 with open (outputfile, 'w+', encoding='utf-8') as outfile2:
         pass
